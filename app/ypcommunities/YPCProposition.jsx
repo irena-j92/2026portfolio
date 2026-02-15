@@ -93,26 +93,26 @@ const YPCProposition = () => {
           </p>
         </div>
 
-        <h2 className="text-lg text-center mt-6 text-[#c4c4c4]">
-          Pain Relievers 💊
-        </h2>
-        <div className="flex flex-wrap justify-center items-center mx-6 gap-2 mt-4">
-          <p className="bg-[#333333] px-3 py-3 w-fit text-center rounded-lg text-[#c4c4c4]">
-            Share location
-          </p>
-          <p className="bg-[#333333] px-3 py-3 w-fit text-center rounded-lg text-[#c4c4c4]">
-            Online communities
-          </p>
-          <p className="bg-[#333333] px-3 py-3 w-fit text-center rounded-lg text-[#c4c4c4]">
-            Sign up/Log in
-          </p>
-          <p className="bg-[#333333] px-3 py-3 w-fit text-center rounded-lg text-[#c4c4c4]">
-            Newsletter
-          </p>
-          <p className="bg-[#333333] px-3 py-3 w-fit text-center rounded-lg text-[#c4c4c4]">
-            Local events
-          </p>
-        </div>
+<h2 className="text-lg text-center mt-6 text-[#c4c4c4]">
+  Pain Relievers 💊
+</h2>
+<div className="flex flex-wrap justify-center items-center mx-6 gap-2 mt-4">
+  <span className="bg-[#333333] px-3 py-3 text-center rounded-lg text-[#c4c4c4] leading-none">
+    Share location
+  </span>
+  <span className="bg-[#333333] px-3 py-3 text-center rounded-lg text-[#c4c4c4] leading-none">
+    Online communities
+  </span>
+  <span className="bg-[#333333] px-3 py-3 text-center rounded-lg text-[#c4c4c4] leading-none">
+    Sign up/Log in
+  </span>
+  <span className="bg-[#333333] px-3 py-3 text-center rounded-lg text-[#c4c4c4] leading-none">
+    Newsletter
+  </span>
+  <span className="bg-[#333333] px-3 py-3 text-center rounded-lg text-[#c4c4c4] leading-none">
+    Local events
+  </span>
+</div>
 
         <h2 className="text-lg text-center mt-6 text-[#c4c4c4]">
           Product & Services ⚙️

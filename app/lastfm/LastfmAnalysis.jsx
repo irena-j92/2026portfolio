@@ -32,7 +32,7 @@ const LastfmAnalysis = () => {
         <hr className='mx-8 xl:mx-20 border-gray-600' />
 
         {/* Categories */}
-        <div className="grid grid-cols-5 text-left mx-8 xl:mx-20 mb-10 gap-4 xl:gap-20 text-white">
+        <div className="grid grid-cols-5 text-left mx-8 xl:mx-20 gap-4 xl:gap-20 text-white">
           <div className='mt-8 mb-4 font-semibold'>
             <p className='mb-4'>Strengths</p>
             <p className='mb-4'>Weaknesses</p>
@@ -77,11 +77,11 @@ const LastfmAnalysis = () => {
 
       {/* Mobile/Tablet View - Card-based layout */}
       <div className="lg:hidden space-y-6 px-4">
-        <h2 className='text-xl font-semibold text-center mb-6'>App Comparison</h2>
+        <h2 className='text-xl font-semibold text-center mb-6'>Feature/App</h2>
         
         {/* Stats.fm */}
-        <div className="border border-gray-600 rounded-lg p-4">
-          <div className='flex items-center gap-3 mb-4 pb-4 border-b border-gray-600'>
+        <div className="p-4">
+          <div className='flex items-center gap-3 mb-4 pb-4'>
             <Image src={assets.statsfm_logo} alt="Stats.fm Logo" className="w-10 h-10 rounded-lg" />
             <h3 className="font-semibold text-lg">stats.fm</h3>
           </div>
@@ -95,8 +95,8 @@ const LastfmAnalysis = () => {
         </div>
 
         {/* Volt.fm */}
-        <div className="border border-gray-600 rounded-lg p-4">
-          <div className='flex items-center gap-3 mb-4 pb-4 border-b border-gray-600'>
+        <div className="p-4">
+          <div className='flex items-center gap-3 mb-4 pb-4'>
             <Image src={assets.voltfm_logo} alt="Volt.fm Logo" className="w-10 h-10 rounded-lg" />
             <h3 className="font-semibold text-lg">volt.fm</h3>
           </div>
@@ -110,8 +110,8 @@ const LastfmAnalysis = () => {
         </div>
 
         {/* Last.fm Stats */}
-        <div className="border border-gray-600 rounded-lg p-4">
-          <div className='flex items-center gap-3 mb-4 pb-4 border-b border-gray-600'>
+        <div className="p-4">
+          <div className='flex items-center gap-3 mb-4 pb-4'>
             <Image src={assets.stats_logo} alt="Last.fm Stats Logo" className="w-10 h-10 rounded-lg" />
             <h3 className="font-semibold text-lg">Last.fm Stats</h3>
           </div>
@@ -125,8 +125,8 @@ const LastfmAnalysis = () => {
         </div>
 
         {/* Musicboard */}
-        <div className="border border-gray-600 rounded-lg p-4">
-          <div className='flex items-center gap-3 mb-4 pb-4 border-b border-gray-600'>
+        <div className="p-4">
+          <div className='flex items-center gap-3 mb-4 pb-4'>
             <Image src={assets.musicboard_logo} alt="Musicboard Logo" className="w-10 h-10 rounded-lg" />
             <h3 className="font-semibold text-lg">Musicboard</h3>
           </div>

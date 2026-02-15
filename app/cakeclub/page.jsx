@@ -71,12 +71,12 @@ const CakeClub = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.1 }}
-        className="flex inline-flex mx-10 items-center gap-4 mb-20 mt-20"
+        className="flex inline-flex mx-10 items-center gap-4 mb-10 sm:mb-20 mt-10 sm:mt-20"
       >
         <Image src={assets.cakeclub_logo} alt="Logo" className="w-16 h-16" />
-        <div className="leading-relaxed">
+        <div className="leading-8 sm:leading-tight">
           <h2 className="font-manrope text-2xl sm:text-4xl">CakeClub®</h2>
-          <p className="text-gray-300 font-medium">Product Design & Research</p>
+          <p className="text-[#c4c4c4] font-medium">Product Design & Research</p>
         </div>
       </motion.div>
 
@@ -130,7 +130,7 @@ const CakeClub = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="grid grid-cols-1 sm:grid-cols-2 mt-10 lg:mt-20 mx-10 gap-10"
+        className="grid grid-cols-1 sm:grid-cols-2 mt-10 md:mt-10 lg:mt-20 sm:mt-10 mx-10 gap-10"
       >
         <div className="text-left text-lg mt-6 leading-relaxed lg:ml-2">
           <p></p>
@@ -157,7 +157,7 @@ const CakeClub = () => {
           <p></p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-12 lg:mt-10">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 sm:grid-cols-4 gap-12 lg:mt-10">
           <div className="w-full">
             <h2 className="text-6xl font-semibold text-[#FF7EC5]">
               70<span className="text-4xl">%</span>
@@ -197,13 +197,15 @@ const CakeClub = () => {
         </div>
       </motion.section>
 
+      <br />
+
       {/* Solution */}
       <motion.section
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="grid grid-cols-1 sm:grid-cols-2 mt-20 mx-10 sm:mx-0"
+        className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-2 mt-20 mx-10 sm:mx-0 md:mx-10"
       >
         <div className="text-left text-lg mt-6 leading-relaxed lg:ml-12">
           <p className="text-[#FF7EC5]">Solution</p>CakeClub® is a visually
@@ -218,13 +220,15 @@ const CakeClub = () => {
         </div>
       </motion.section>
 
+      <br />
+
       {/* User Personas */}
       <motion.section
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="grid grid-cols-1 sm:grid-cols-2 mt-12 lg:mt-20 md:mt-8 sm:mt-6 mx-10"
+        className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-2 mt-12 lg:mt-20 md:mt-8 sm:mt-6 mx-10"
       >
         <div className="text-left text-lg mt-6 leading-relaxed">
           <p></p>
@@ -238,6 +242,8 @@ const CakeClub = () => {
           different life stages.
         </div>
       </motion.section>
+
+      <br />
 
       <CakePersona className="mx-10" />
 
@@ -260,6 +266,8 @@ const CakeClub = () => {
           />
         </a>
       </motion.div>
+
+            <br />
 
       {/* Brand system */}
       <motion.section
@@ -309,7 +317,7 @@ const CakeClub = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="grid grid-cols-1 sm:grid-cols-2 mx-10"
+        className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-2 mx-10"
       >
         <div className="text-left text-lg mt-6 leading-relaxed">
           <p className="text-[#FF7EC5]">Brand system</p>CakeClub® is a visually
@@ -324,6 +332,8 @@ const CakeClub = () => {
         </div>
       </motion.section>
 
+                  <br />
+
       {/* App architecture */}
       <motion.section
         initial={{ opacity: 0, y: 20 }}
@@ -331,7 +341,7 @@ const CakeClub = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
       >
-        <div className="grid grid grid-cols-2 sm:grid-cols-5 lg:ml-140 mx-10 gap-4 mt-20">
+        <div className="grid grid grid-cols-2 sm:grid-cols-5 lg:ml-140 mx-10 gap-4 mt-10">
           <div className="bg-[#333333] aspect-square rounded-xl">
             <p className="text-4xl text-center mt-8 md:mt-14 lg:mt-12">📋</p>
             <h2 className="text-center leading-6 mt-4">Dashboard</h2>
@@ -373,13 +383,13 @@ const CakeClub = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="grid grid-cols-1 sm:grid-cols-2 mx-10"
+        className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-2 mx-10"
       >
-        <div className="text-left text-lg mt-6 leading-relaxed lg:ml-2">
+        <div className="text-left text-lg mt-0 md:mt-0 sm:mt-0 lg:mt-6 leading-relaxed ml-0 lg:ml-2">
           <p></p>
         </div>
 
-        <div className="text-left text-lg mt-6 leading-relaxed lg:ml-2">
+        <div className="text-left mt-6 text-lg leading-relaxed lg:ml-2">
           <p className="text-[#FF7EC5]">App architecture</p>CakeClub's app is
           organized around a clear, intuitive structure to make managing
           finances simple and engaging. The Dashboard provides an overview of
@@ -391,15 +401,17 @@ const CakeClub = () => {
         </div>
       </motion.section>
 
+                  <br />
+
       {/* Screens */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-2 gap-4 mt-10 mx-10"
+        className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-2 gap-4 mt-10 mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
-        <div className="bg-[#333333] w-full py-12 items-center justify-center">
+        <div className="bg-[#333333] w-full px-4 py-12 sm:py-20 items-center justify-center">
           <Image
             src={assets.cakeclub_splash}
             alt="Welcome Screen"
@@ -410,7 +422,7 @@ const CakeClub = () => {
           />
         </div>
 
-        <div className="bg-[#333333] w-full py-12 items-center justify-center">
+        <div className="bg-[#333333] w-full px-4 py-12 sm:py-20 items-center justify-center">
           <Image
             src={assets.cakeclub_passcode}
             alt="Passcode"
@@ -427,11 +439,11 @@ const CakeClub = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="grid grid-cols-1 sm:grid-cols-2 mx-10"
+        className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-2 mx-10"
       >
         <p></p>
 
-        <div className="text-left text-lg mt-6 leading-relaxed lg:lg:ml-2 mx-10">
+        <div className="text-left text-lg mt-6 leading-relaxed ml-0 lg:ml-2 mx-10">
           <p className="text-[#FF7EC5]">Security first</p>To ensure optimal user
           experience and protect sensitive financial data, a passcode screen is
           required each time the app is opened. Additional security measures —
@@ -441,13 +453,15 @@ const CakeClub = () => {
         </div>
       </motion.div>
 
+                  <br />
+
       {/* Onboarding */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="mx-10"
+        className="mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
         <div className="bg-[#333333] w-full py-10 lg:py-10 md:py-8 sm:py-6 px-6 mt-10 items-center justify-center">
           <Image
@@ -466,11 +480,11 @@ const CakeClub = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="grid grid-cols-1 sm:grid-cols-2 mx-10"
+        className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-2 mx-10"
       >
         <p></p>
 
-        <div className="text-left text-lg mt-6 leading-relaxed lg:lg:ml-2">
+        <div className="text-left text-lg mt-6 leading-relaxed lg:ml-2">
           <p className="text-[#FF7EC5]">First impressions that convert</p>{" "}
           Turning new users into long-term customers begins with a strong first
           impression. The onboarding experience introduces the app through
@@ -487,9 +501,9 @@ const CakeClub = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="mx-10"
+        className="mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
-        <div className="bg-[#333333] w-full py-10 mt-10 items-center justify-center">
+        <div className="bg-[#333333] px-4 w-full px-4 py-12 sm:py-20 mt-10 items-center justify-center">
           <Image
             src={assets.cakeclub_notification}
             alt="Notification"
@@ -506,10 +520,10 @@ const CakeClub = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="grid grid-cols-1 sm:grid-cols-2"
+        className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-2"
       >
         <p></p>
-        <div className="text-left text-lg mt-6 leading-relaxed lg:lg:ml-2 mx-10">
+        <div className="text-left text-lg mt-6 leading-relaxed lg:ml-2 mx-10">
           <p className="text-[#FF7EC5]">
             Meaningful, behavior-based notifications
           </p>
@@ -527,9 +541,9 @@ const CakeClub = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-2 gap-4 mt-10 mx-10"
+        className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-2 gap-4 mt-10 mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
-        <div className="bg-[#333333] w-full py-12 items-center justify-center">
+        <div className="bg-[#333333] w-full px-4 py-12 sm:py-20 items-center justify-center">
           <Image
             src={assets.cakeclub_login}
             alt="Login"
@@ -540,7 +554,7 @@ const CakeClub = () => {
           />
         </div>
 
-        <div className="bg-[#333333] w-full py-12 items-center justify-center">
+        <div className="bg-[#333333] w-full px-4 py-12 sm:py-20 items-center justify-center">
           <Image
             src={assets.cakeclub_profile}
             alt="Profile"
@@ -557,7 +571,7 @@ const CakeClub = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="grid grid-cols-1 sm:grid-cols-2 mx-10"
+        className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-2 mx-10"
       >
         <p></p>
         <div className="text-left text-lg mt-6 leading-relaxed lg:ml-2">
@@ -578,7 +592,7 @@ const CakeClub = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="mx-10"
+        className="mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
         <div className="bg-[#333333] w-full py-10 lg:py-10 md:py-8 sm:py-6 px-6 mt-10 items-center justify-center">
           <Image
@@ -597,11 +611,11 @@ const CakeClub = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="grid grid-cols-1 sm:grid-cols-2"
+        className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-2"
       >
         <p></p>
 
-        <div className="text-left text-lg mt-6 leading-relaxed lg:lg:ml-2 mx-10">
+        <div className="text-left text-lg mt-6 leading-relaxed lg:ml-2 mx-10">
           <p className="text-[#FF7EC5]">Financial overview at a glance</p>The
           home screen provides users with an immediate overview of their total
           balance. Prominent action buttons enable quick and easy transactions
@@ -612,14 +626,16 @@ const CakeClub = () => {
         </div>
       </motion.div>
 
+                  <br />
+
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="mx-10"
+        className="mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
-        <div className="bg-[#333333] w-full sm:px-0 py-10 mt-20 items-center justify-center">
+        <div className="bg-[#333333] w-full sm:px-0 py-10 mt-20 items-center justify-center ">
           <Image
             src={assets.cakeclub_analytics}
             alt="Home"
@@ -636,7 +652,7 @@ const CakeClub = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="grid grid-cols-1 sm:grid-cols-2"
+        className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-2"
       >
         <p></p>
 
@@ -657,9 +673,9 @@ const CakeClub = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-2 gap-4 mt-10 mx-10"
+        className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-2 gap-4 mt-10 mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
-        <div className="bg-[#333333] w-full py-12 items-center justify-center">
+        <div className="bg-[#333333] w-full px-4 py-12 sm:py-20 items-center justify-center">
           <Image
             src={assets.cakeclub_income}
             alt="Income"
@@ -670,7 +686,7 @@ const CakeClub = () => {
           />
         </div>
 
-        <div className="bg-[#333333] w-full py-12 items-center justify-center">
+        <div className="bg-[#333333] w-full px-4 py-12 sm:py-20 items-center justify-center">
           <Image
             src={assets.cakeclub_expenses}
             alt="Income"
@@ -687,7 +703,7 @@ const CakeClub = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="grid grid-cols-1 sm:grid-cols-2 mx-10"
+        className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-2 mx-10"
       >
         <p></p>
         <div className="text-left text-lg mt-6 leading-relaxed lg:ml-2">
@@ -706,7 +722,7 @@ const CakeClub = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="mx-10"
+        className="mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
         <div className="bg-[#333333] w-full py-10 mt-10 items-center justify-center">
           <Image
@@ -725,7 +741,7 @@ const CakeClub = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="grid grid-cols-1 sm:grid-cols-2"
+        className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-2"
       >
         <p></p>
         <div className="text-left text-lg mt-6 leading-relaxed lg:ml-2 mx-10">
@@ -745,9 +761,9 @@ const CakeClub = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-2 gap-4 mt-10 mx-10"
+        className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-2 gap-4 mt-10 mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
-        <div className="bg-[#333333] w-full py-12 items-center justify-center">
+        <div className="bg-[#333333] w-full px-4 py-12 sm:py-20 items-center justify-center">
           <Image
             src={assets.cakeclub_transfers}
             alt="Home"
@@ -758,7 +774,7 @@ const CakeClub = () => {
           />
         </div>
 
-        <div className="bg-[#333333] w-full py-12 items-center justify-center">
+        <div className="bg-[#333333] w-full px-4 py-12 sm:py-20 items-center justify-center">
           <Image
             src={assets.cakeclub_receipt}
             alt="Home"
@@ -775,7 +791,7 @@ const CakeClub = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="grid grid-cols-1 sm:grid-cols-2"
+        className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-2"
       >
         <p></p>
         <div className="text-left text-lg mt-6 leading-relaxed lg:ml-2 mx-10">
@@ -795,7 +811,7 @@ const CakeClub = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="mx-10"
+        className="mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
         <div className="bg-[#333333] w-full py-10 mt-10 items-center justify-center">
           <Image
@@ -814,7 +830,7 @@ const CakeClub = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="grid grid-cols-1 sm:grid-cols-2 mx-10 mb-10"
+        className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-2 mx-10 mb-10"
       >
         <p></p>
         <div className="text-left text-lg mt-6 leading-relaxed lg:ml-2">
@@ -833,7 +849,7 @@ const CakeClub = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="mx-10"
+        className="mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
         <div className="bg-[#333333] w-full py-10 mt-10 items-center justify-center">
           <Image
@@ -852,7 +868,7 @@ const CakeClub = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="grid grid-cols-1 sm:grid-cols-2 mx-10 mb-10"
+        className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-2 mx-10 mb-10"
       >
         <p></p>
         <div className="text-left text-lg mt-6 leading-relaxed lg:ml-2">
@@ -869,7 +885,7 @@ const CakeClub = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="grid grid-cols-1 sm:grid-cols-2 mt-20 mx-10 mb-10"
+        className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-2 mt-20 mx-10"
       >
         <div className="text-left text-lg mt-6 leading-relaxed">
           <p className="text-[#FF7EC5]">Takeaways</p>CakeClub's intuitive
@@ -888,20 +904,22 @@ const CakeClub = () => {
         </div>
       </motion.section>
 
+                  <br />
+
       {/* Numbers */}
       <motion.section
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="grid grid-cols-1 md:grid-cols-2 sm:grid-cols-4 mx-10"
+        className="w-fit mx-10"
       >
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-12 lg:mt-10">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 sm:grid-cols-4 gap-12 lg:mt-10">
           <div className="w-full">
             <h2 className="text-6xl font-semibold text-[#FF7EC5]">
               80<span className="text-4xl">%</span>
             </h2>
-            <p className="leading-snug mt-1 text-sm text-gray-300">
+            <p className="leading-snug mt-1 text-sm text-[#c4c4c4]">
               better control over <br />
               their spending
             </p>
@@ -911,7 +929,7 @@ const CakeClub = () => {
             <h2 className="text-6xl font-semibold text-[#FF7EC5]">
               65<span className="text-4xl">%</span>
             </h2>
-            <p className="leading-snug mt-1 text-sm w-40 text-gray-300">
+            <p className="leading-snug mt-1 text-sm w-40 text-[#c4c4c4]">
               tracked more transactions regularly
             </p>
           </div>
@@ -920,7 +938,7 @@ const CakeClub = () => {
             <h2 className="text-6xl font-semibold text-[#FF7EC5]">
               40<span className="text-4xl">%</span>
             </h2>
-            <p className="leading-snug mt-1 text-sm w-34 text-gray-300">
+            <p className="leading-snug mt-1 text-sm w-34 text-[#c4c4c4]">
               more engagement with Rewards
             </p>
           </div>
@@ -929,7 +947,7 @@ const CakeClub = () => {
             <h2 className="text-6xl font-semibold text-[#FF7EC5]">
               90<span className="text-4xl">%</span>
             </h2>
-            <p className="leading-snug mt-1 text-sm text-gray-300">
+            <p className="leading-snug mt-1 text-sm text-[#c4c4c4]">
               reduced user confusion
             </p>
           </div>

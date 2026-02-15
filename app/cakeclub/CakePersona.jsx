@@ -7,7 +7,7 @@ import Image from "next/image";
 const CakePersona = () => {
   return (
     <div>
-      <section className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-2 gap-4 mt-10 mx-10">
+      <section className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-4 gap-4 mt-10 mx-10">
         {/* Arrione */}
         <div className="bg-[#333333] w-full py-6 items-center justify-center">
           <div className="mx-10">

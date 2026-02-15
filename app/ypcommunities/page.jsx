@@ -69,10 +69,10 @@ const YPCommunities = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.1 }}
-        className="flex inline-flex mx-10 items-center gap-4 mb-20 mt-20"
+        className="flex inline-flex mx-10 items-center gap-4 mb-10 sm:mb-20 mt-10 sm:mt-20"
       >
         <Image src={assets.ypc_logo} alt="Logo" className="w-16 h-16" />
-        <div className="leading-relaxed">
+        <div className="lleading-8 sm:leading-tight">
           <h2 className="font-manrope text-2xl sm:text-4xl">
             YPCommunities
           </h2>
@@ -134,7 +134,7 @@ const YPCommunities = () => {
       >
         <p></p>
 
-        <div className="text-left grid grid-cols-2 sm:grid-cols-4 gap-2 text-lg mt-6 leading-relaxed ml-2">
+        <div className="text-left grid grid-cols-2 md:grid-cols-2 sm:grid-cols-4 gap-2 text-lg mt-6 leading-relaxed sm:ml-2">
           <div className="py-6 px-6 bg-[#333333] rounded-xl text-center">
             <h2 className="text-4xl">
               <span className="text-3xl">💼</span> 11
@@ -177,7 +177,7 @@ const YPCommunities = () => {
       >
         <p></p>
 
-        <div className="text-left text-lg mt-6 leading-relaxed sm:ml-2 mb-20">
+        <div className="text-left text-lg mt-6 leading-relaxed sm:sm:ml-2 mb-20">
           <p className="text-[#c4c4c4]">Analyzing the numbers</p>Research
           revealed key challenges for youth: 11% are unemployed, 16% feel
           disconnected, 58% lack a supporting network, and 48% report racial or
@@ -186,7 +186,11 @@ const YPCommunities = () => {
         </div>
       </motion.div>
 
+      <br />
+
+<div className="flex items-center justify-center">
       <YPCPersona />
+      </div>
 
       <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -197,7 +201,7 @@ const YPCommunities = () => {
       >
         <p></p>
 
-        <div className="text-left text-lg mt-6 leading-relaxed ml-2">
+        <div className="text-left text-lg mt-6 leading-relaxed sm:ml-2">
           <p className="text-[#c4c4c4]">User Persona</p>Based on research,
           YPCommunities targets young adults navigating career, social, and
           cultural challenges. Personas capture key traits, motivations, and
@@ -219,7 +223,7 @@ const YPCommunities = () => {
       >
         <p></p>
 
-        <div className="text-left text-lg mt-6 leading-relaxed ml-2">
+        <div className="text-left text-lg mt-6 leading-relaxed sm:ml-2">
           <p className="text-[#c4c4c4]">Value Proposition</p>YPCommunities
           connects young adults to local networks, events, and support systems.
           It offers a safe space to explore opportunities, share experiences,
@@ -228,7 +232,11 @@ const YPCommunities = () => {
         </div>
       </motion.div>
 
+            <br />
+
+<div className="mx-10">
       <YPCJourney />
+      </div>
 
       <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -239,7 +247,7 @@ const YPCommunities = () => {
       >
         <p></p>
 
-        <div className="text-left text-lg mt-6 leading-relaxed sm:ml-2 mb-20">
+        <div className="text-left text-lg mt-6 leading-relaxed sm:sm:ml-2 mb-20">
           <p className="text-[#c4c4c4]">User Journey</p>The user journey maps
           typical interactions, from discovering events and news to joining
           conversations or submitting requests for local support. This
@@ -247,6 +255,8 @@ const YPCommunities = () => {
           more engaging experience.
         </div>
       </motion.div>
+
+            <br />
 
       <YPCSitemap />
 
@@ -259,7 +269,7 @@ const YPCommunities = () => {
       >
         <p></p>
 
-        <div className="text-left text-lg leading-relaxed ml-2 mt-10">
+        <div className="text-left text-lg leading-relaxed sm:ml-2 mt-10">
           <p className="text-[#c4c4c4]">Information structure</p> Content is
           organized to balance clarity and accessibility, ensuring users can
           quickly find events, news, and community resources. Tabs, filters, and
@@ -277,7 +287,7 @@ const YPCommunities = () => {
         transition={{ duration: 0.5 }}
         className="mx-10"
       >
-        <div className="bg-[#333333] w-full px-4 md:px-8 sm:px-0 py-20 sm:py-20 items-center justify-center mt-10">
+        <div className="bg-[#333333] w-full px-4 md:px-8 sm:px-0 py-12 sm:py-20 items-center justify-center mt-10">
           <Image
             src={assets.ypc_landing}
             alt="Lastfm Grid"
@@ -298,7 +308,7 @@ const YPCommunities = () => {
         className="grid grid-cols-1 sm:grid-cols-2 mx-10"
       >
         <p></p>
-        <div className="text-left text-lg mt-6 leading-relaxed ml-2">
+        <div className="text-left text-lg mt-6 leading-relaxed sm:ml-2">
           <p className="text-[#c4c4c4]">Communicating the mission</p>The homepage
           communicates the organization's values and mission through a mix of
           media. Key metrics support these claims, and users are invited to join
@@ -337,7 +347,7 @@ const YPCommunities = () => {
         className="grid grid-cols-1 sm:grid-cols-2 mx-10"
       >
         <p></p>
-        <div className="text-left text-lg mt-6 leading-relaxed ml-2">
+        <div className="text-left text-lg mt-6 leading-relaxed sm:ml-2">
           <p className="text-[#c4c4c4]">Intuitive navigation</p>The main menu is
           accessed via a burger icon. An accessibility symbol is prominently
           displayed and color-coded to highlight the organization's commitment
@@ -354,7 +364,7 @@ const YPCommunities = () => {
         transition={{ duration: 0.5 }}
         className="mx-10"
       >
-        <div className="bg-[#333333] w-full py-10 sm:py-20 min-h-[400px] flex items-center justify-center">
+        <div className="bg-[#333333] w-full py-12 sm:py-20 min-h-[400px] flex items-center justify-center">
           <video
             autoPlay
             muted
@@ -376,7 +386,7 @@ const YPCommunities = () => {
         className="grid grid-cols-1 sm:grid-cols-2 mx-10"
       >
         <p></p>
-        <div className="text-left text-lg mt-6 leading-relaxed ml-2">
+        <div className="text-left text-lg mt-6 leading-relaxed sm:ml-2">
           <p className="text-[#c4c4c4]">Story & Team</p>This section shares the
           organization's backstory and introduces the team, providing context
           and building trust with users.
@@ -414,7 +424,7 @@ const YPCommunities = () => {
       >
         <p></p>
 
-        <div className="text-left text-lg mt-6 leading-relaxed sm:ml-2">
+        <div className="text-left text-lg mt-6 leading-relaxed sm:sm:ml-2">
           <p className="text-[#c4c4c4]">Discover local events</p>Users can view
           upcoming events in their local area. The event calendar allows
           planning ahead and also offers access to past events for reference.
@@ -452,8 +462,8 @@ const YPCommunities = () => {
         className="grid grid-cols-1 sm:grid-cols-2 mx-10"
       >
         <p></p>
-        <div className="text-left text-lg mt-6 leading-relaxed ml-2">
-          <p className="text-[#c4c4c4]">Latest updates</p>YPMedia presents news
+        <div className="text-left text-lg mt-6 leading-relaxed sm:ml-2">
+          <p className="text-[#c4c4c4]">Latest updates</p>YPMedia presents newss
           and updates, with posts filtered by category. A clear and organized
           layout ensures users can quickly understand the content.
         </div>
@@ -468,7 +478,7 @@ const YPCommunities = () => {
         transition={{ duration: 0.5 }}
         className="mx-10"
       >
-        <div className="bg-[#333333] w-full py-20 min-h-[400px] mt-20 flex items-center justify-center">
+        <div className="bg-[#333333] w-full py-20 min-h-[400px] mt-10 flex items-center justify-center">
           <Image
             src={assets.ypc_locations}
             alt="YPC Locations"
@@ -489,7 +499,7 @@ const YPCommunities = () => {
         className="grid grid-cols-1 sm:grid-cols-2 mx-10"
       >
         <p></p>
-        <div className="text-left text-lg mt-6 leading-relaxed ml-2">
+        <div className="text-left text-lg mt-6 leading-relaxed sm:ml-2">
           <p className="text-[#c4c4c4]">Expanding reach</p>YPC operates across
           multiple regions. If a user's area isn't yet covered, they can submit
           a request via a simple form to help expand the organization's reach.
@@ -505,7 +515,7 @@ const YPCommunities = () => {
         transition={{ duration: 0.5 }}
         className="mx-10"
       >
-        <div className="bg-[#333333] w-full py-20 min-h-[400px] mt-20 flex items-center justify-center">
+        <div className="bg-[#333333] w-full py-20 min-h-[400px] mt-10 flex items-center justify-center">
           <video
             autoPlay
             muted
@@ -527,7 +537,7 @@ const YPCommunities = () => {
         className="grid grid-cols-1 sm:grid-cols-2 mx-10"
       >
         <p></p>
-        <div className="text-left text-lg mt-6 leading-relaxed ml-2">
+        <div className="text-left text-lg mt-6 leading-relaxed sm:ml-2">
           <p className="text-[#c4c4c4]">Easy access</p>Sign up and login forms
           allow users to access their profiles using Google or Facebook
           accounts, streamlining account creation.
@@ -563,7 +573,7 @@ const YPCommunities = () => {
         className="grid grid-cols-1 sm:grid-cols-2 mx-10"
       >
         <p></p>
-        <div className="text-left text-lg mt-6 leading-relaxed ml-2">
+        <div className="text-left text-lg mt-6 leading-relaxed sm:ml-2">
           <p className="text-[#c4c4c4]">Personalized event tracking</p>Profiles
           display users' upcoming and attended events. This information is
           private and visible only to the profile owner, ensuring
@@ -580,7 +590,7 @@ const YPCommunities = () => {
         transition={{ duration: 0.5 }}
         className="mx-10"
       >
-        <div className="bg-[#333333] w-full py-20 min-h-[400px] mt-20 flex items-center justify-center">
+        <div className="bg-[#333333] w-full py-20 min-h-[400px] mt-10 flex items-center justify-center">
           <video
             autoPlay
             muted
@@ -602,7 +612,7 @@ const YPCommunities = () => {
         className="grid grid-cols-1 sm:grid-cols-2 mx-10"
       >
         <p></p>
-        <div className="text-left text-lg mt-6 leading-relaxed ml-2">
+        <div className="text-left text-lg mt-6 leading-relaxed sm:ml-2">
           <p className="text-[#c4c4c4]">Real faces, real stories</p>1000 Cuts
           provides a platform for networking while addressing important topics.
           It highlights ongoing issues of racism and encourages members to share
@@ -640,7 +650,7 @@ const YPCommunities = () => {
         className="grid grid-cols-1 sm:grid-cols-2 mx-10"
       >
         <p></p>
-        <div className="text-left text-lg mt-6 leading-relaxed ml-2">
+        <div className="text-left text-lg mt-6 leading-relaxed sm:ml-2">
           <p className="text-[#c4c4c4]">Mobile optimization</p>With most users
           accessing the site via mobile devices, the design prioritizes a
           smooth, responsive, and satisfying mobile experience.

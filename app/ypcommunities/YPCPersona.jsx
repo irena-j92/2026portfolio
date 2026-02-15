@@ -34,7 +34,7 @@ const YPCPersona = () => {
       </div>
 
       {/* Right side - Content */}
-      <div className="w-full lg:w-3/5 bg-[#333333] py-8 md:py-14 px-6 md:px-10">
+      <div className="w-full lg:w-3/5 bg-[#333333] rounded-r-xl py-8 md:py-14 px-6 md:px-10">
         {/* Aspirations */}
         <div className="w-full text-base md:text-lg mb-8 md:mb-12">
           <h2 className="text-sm text-[#c4c4c4] uppercase font-bold mb-3">
@@ -72,21 +72,21 @@ const YPCPersona = () => {
             <div className="flex items-center gap-2 mb-2">
               <span className="min-w-[110px]">Internet:</span>
               <div className="flex gap-1">
-                <div className="bg-white rounded-full w-4 h-4"></div>
-                <div className="bg-white rounded-full w-4 h-4"></div>
-                <div className="bg-white rounded-full w-4 h-4"></div>
-                <div className="bg-white rounded-full w-4 h-4"></div>
-                <div className="bg-white rounded-full w-4 h-4"></div>
+                <div className="bg-[#c4c4c4] rounded-full w-4 h-4"></div>
+                <div className="bg-[#c4c4c4] rounded-full w-4 h-4"></div>
+                <div className="bg-[#c4c4c4] rounded-full w-4 h-4"></div>
+                <div className="bg-[#c4c4c4] rounded-full w-4 h-4"></div>
+                <div className="border border-[#c4c4c4] rounded-full w-4 h-4"></div>
               </div>
             </div>
             <div className="flex items-center gap-2">
               <span className="min-w-[110px]">Social Media:</span>
               <div className="flex gap-1">
-                <div className="bg-white rounded-full w-4 h-4"></div>
-                <div className="bg-white rounded-full w-4 h-4"></div>
-                <div className="bg-white rounded-full w-4 h-4"></div>
-                <div className="bg-white rounded-full w-4 h-4"></div>
-                <div className="bg-white rounded-full w-4 h-4"></div>
+                <div className="bg-[#c4c4c4] rounded-full w-4 h-4"></div>
+                <div className="bg-[#c4c4c4] rounded-full w-4 h-4"></div>
+                <div className="bg-[#c4c4c4] rounded-full w-4 h-4"></div>
+                <div className="bg-[#c4c4c4] rounded-full w-4 h-4"></div>
+                <div className="border border-[#c4c4c4] rounded-full w-4 h-4"></div>
               </div>
             </div>
           </div>

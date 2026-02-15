@@ -12,35 +12,35 @@ import Modal from "../components/Modal";
 import Whiteboard from "../components/Whiteboard";
 
 export default function Home() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  // const [isDarkMode, setIsDarkMode] = useState(false);
   const [loading, setLoading] = useState(true);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const modalRef = useRef(null);
 
-  // 🔹 Initialize theme
-  useEffect(() => {
-    const storedTheme = localStorage.getItem("theme");
-    const prefersDark = window.matchMedia(
-      '(prefers-color-scheme:dark)'
-    ).matches;
+  // // 🔹 Initialize theme
+  // useEffect(() => {
+  //   const storedTheme = localStorage.getItem("theme");
+  //   const prefersDark = window.matchMedia(
+  //     '(prefers-color-scheme:dark)'
+  //   ).matches;
 
-    if (storedTheme === "dark" || (!storedTheme && prefersDark)) {
-      setIsDarkMode(true);
-    } else {
-      setIsDarkMode(false);
-    }
-  }, []);
+  //   if (storedTheme === "dark" || (!storedTheme && prefersDark)) {
+  //     setIsDarkMode(true);
+  //   } else {
+  //     setIsDarkMode(false);
+  //   }
+  // }, []);
 
-  // 🔹 Apply theme to <html>
-  useEffect(() => {
-    if (isDarkMode) {
-      document.documentElement.classList.add("dark");
-      localStorage.setItem("theme", "dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-      localStorage.setItem("theme", "light");
-    }
-  }, [isDarkMode]);
+  // // 🔹 Apply theme to <html>
+  // useEffect(() => {
+  //   if (isDarkMode) {
+  //     document.documentElement.classList.add("dark");
+  //     localStorage.setItem("theme", "dark");
+  //   } else {
+  //     document.documentElement.classList.remove("dark");
+  //     localStorage.setItem("theme", "light");
+  //   }
+  // }, [isDarkMode]);
 
   // 🔹 Loading screen (once per session)
   useEffect(() => {
@@ -75,25 +75,25 @@ export default function Home() {
   }, [loading]);
 
   return (
-    <div>
+    <div className="overflow-x-hidden">
       {/* Optional: Show a loading screen */}
       {loading && (
         <div className="fixed inset-0 flex items-center justify-center bg-[#1c1c1c] z-50">
           <div className="text-center">
-            <p className="text-6xl sm:text-8xl font-[800] text-white animate-pulse">᧖(• ᦢ •)ᦣ</p>
+            <p className="text-6xl sm:text-8xl font-[800] text-white animate-pulse">૮꒰˶  - ˕ -꒱ა⟡</p>
           </div>
         </div>
       )}
 
       {!loading && (
         <>
-          <Nav isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
-          <Header isDarkMode={isDarkMode} />
-          <Services isDarkMode={isDarkMode} />
-          <Work isDarkMode={isDarkMode} />
-          <Contact isDarkMode={isDarkMode} />
-          <ToolsSlider isDarkMode={isDarkMode} />
-          <Footer isDarkMode={isDarkMode} />
+          <Nav />
+          <Header />
+          <Services />
+          <Work />
+          <Contact />
+          <ToolsSlider />
+          <Footer />
         </>
       )}
     </div>

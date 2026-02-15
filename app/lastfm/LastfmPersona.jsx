@@ -6,7 +6,7 @@ import { BriefcaseBusiness, Heart, MapPin, GraduationCap } from "lucide-react";
 const LastfmPersona = () => {
   return (
     <div>
-      <section className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-10 mx-4 sm:mx-10">
+      <section className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4 mt-0 lg:mt-10 mx-4 sm:mx-10">
         {/* Brad */}
         <div className="bg-[#333333] w-full py-6 items-center justify-center">
           <div className="grid grid-cols-1 sm:grid-cols-2 mx-8 sm:mx-10 gap-8">

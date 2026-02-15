@@ -26,6 +26,9 @@ import lastfm_capsule_stats from "./lastfm/lastfm-capsule-stats.png"
 import lastfm_capsule_calendar from "./lastfm/lastfm-capsule-calendar.png"
 import lastfm_user from "./lastfm/lastfm-user.png"
 import lastfm_compatibility from "./lastfm/lastfm-compatibility.png"
+import lastfm_person1 from "./lastfm/lastfm-person1.png"
+import lastfm_person2 from "./lastfm/lastfm-person2.png"
+import lastfm_person3 from "./lastfm/lastfm-person3.png"
 
 import cakeclub_hero from "./cakeclub/cakeclub-hero.jpg"
 import cakeclub_home from "./cakeclub/cakeclub-home.png"
@@ -89,6 +92,9 @@ export const assets = {
     lastfm_capsule_calendar,
     lastfm_capsule_stats,
     lastfm_compatibility,
+    lastfm_person1,
+    lastfm_person2,
+    lastfm_person3,
 
     cakeclub_home,
     cakeclub_budget,

@@ -74,7 +74,7 @@ const Lastfm = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.1 }}
-        className="flex inline-flex mx-10 items-center gap-4 mb-20 mt-20"
+        className="flex inline-flex mx-10 items-center gap-4 mb-10 sm:mb-20 mt-10 sm:mt-20"
       >
         <Image src={assets.lastfm_logo} alt="Logo" className="w-16 h-16" />
         <div className="leading-relaxed">
@@ -139,7 +139,7 @@ const Lastfm = () => {
           <p></p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-12 mt-0 sm:mt-10 sm:ml-2">
+        <div className="grid grid-cols-2 md:grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 gap-12 mt-0 sm:mt-10 sm:ml-2">
           <div className="w-30 mr-24">
             <h2 className="text-6xl font-semibold text-[#E42900]">
               80<span className="text-4xl">%</span>
@@ -197,6 +197,8 @@ const Lastfm = () => {
         </p>
       </motion.div>
 
+      <br />
+
       <LastfmPersona />
 
       <motion.div
@@ -248,8 +250,6 @@ const Lastfm = () => {
 
       <LastfmFeatures />
 
-      <br />
-
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -259,7 +259,7 @@ const Lastfm = () => {
       >
         <p></p>
 
-        <p className="text-left text-lg leading-relaxed sm:ml-2 mb-20">
+        <p className="text-left text-lg leading-relaxed sm:ml-2 lg:mb-20">
           <p className="text-[#c4c4c4]">Setting priorities</p>The existing mobile
           app offered only a limited set of features, while the website provided
           a more comprehensive experience and competitors had their own
@@ -364,6 +364,8 @@ const Lastfm = () => {
         </p>
       </motion.div>
 
+            <br />
+
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -414,6 +416,8 @@ const Lastfm = () => {
         </p>
       </motion.div>
 
+            <br />
+
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -451,6 +455,8 @@ const Lastfm = () => {
           immersive and visually engaging.
         </p>
       </motion.div>
+
+            <br />
 
       <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -502,6 +508,8 @@ const Lastfm = () => {
         </p>
       </motion.div>
 
+            <br />
+
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -539,6 +547,8 @@ const Lastfm = () => {
           friction.
         </p>
       </motion.div>
+
+            <br />
 
       <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -592,6 +602,8 @@ const Lastfm = () => {
         </p>
       </motion.div>
 
+            <br />
+
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -629,6 +641,8 @@ const Lastfm = () => {
           music taste evolves significantly.
         </p>
       </motion.div>
+
+            <br />
 
       <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -678,6 +692,8 @@ const Lastfm = () => {
         </p>
       </motion.div>
 
+            <br />
+
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -715,6 +731,8 @@ const Lastfm = () => {
           year, however, are available for review.
         </p>
       </motion.div>
+
+            <br />
 
       <Other currentProjectId={4} />
 

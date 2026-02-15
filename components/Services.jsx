@@ -28,7 +28,7 @@ const Services = () => {
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true }}
         transition={{ delay: 0.3, duration: 0.5 }}
-        className="mb-2 uppercase font-[800] mx-10 mt-20"
+        className="mb-2 uppercase font-[700] mx-10 mt-20"
       >
         [Services]
       </motion.h2>

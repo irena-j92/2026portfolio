@@ -68,7 +68,13 @@ const YPCJourney = () => {
           <div className="bg-[#333333] rounded-lg px-4 md:px-6 py-4 text-sm leading-normal flex-1">
             <h2 className="text-base md:text-lg font-medium mb-2">Scenario</h2>
             <p className="text-[#c4c4c4]">
-              New to the city and freshly graduated, Maya is searching for her first job and a community that helps her connect, grow, and feel less alone.
+              Maya is 23 and has just moved to Atlanta after graduating with a
+              degree in History. She doesn’t yet have a full-time job and knows
+              very few people in the city. Most of her days are spent applying
+              for entry-level roles online, but the process feels isolating and
+              discouraging. She wants to meet people, learn what opportunities
+              exist locally, and feel less alone while figuring out her next
+              steps.
             </p>
           </div>
         </div>
@@ -78,9 +84,14 @@ const YPCJourney = () => {
       <div className="hidden lg:block w-full px-10">
         {/* Stages */}
         <div className="flex flex-row gap-4 text-center mb-4">
-          <div className="bg-[#333333] w-50 py-4 px-10 rounded-lg flex-shrink-0">Stages</div>
+          <div className="bg-[#333333] w-50 py-4 px-10 rounded-lg flex-shrink-0">
+            Stages
+          </div>
           {stages.map((stage, index) => (
-            <div key={index} className="bg-white w-50 py-4 px-10 text-black rounded-lg flex-1">
+            <div
+              key={index}
+              className="bg-white w-50 py-4 px-10 text-black rounded-lg flex-1"
+            >
               {stage}
             </div>
           ))}
@@ -88,11 +99,14 @@ const YPCJourney = () => {
 
         {/* User action */}
         <div className="flex flex-row gap-4 text-center mb-4">
-          <div className="bg-[#333333] w-50 py-4 rounded-lg flex-shrink-0">
+          <div className="bg-[#333333] w-50 rounded-lg flex items-center justify-center">
             User action
           </div>
           {userActions.map((action, index) => (
-            <div key={index} className="border border-gray-600 w-50 text-[#c4c4c4] py-4 px-4 rounded-lg flex-1 whitespace-pre-line">
+            <div
+              key={index}
+              className="border border-gray-600 w-50 text-[#c4c4c4] py-4 px-4 rounded-lg flex-1 whitespace-pre-line"
+            >
               {action}
             </div>
           ))}
@@ -100,11 +114,14 @@ const YPCJourney = () => {
 
         {/* User goals */}
         <div className="flex flex-row gap-4 text-center mb-4">
-          <div className="bg-[#333333] w-50 py-4 px-10 rounded-lg flex-shrink-0">
+          <div className="bg-[#333333] w-50 rounded-lg flex items-center justify-center">
             User goals
           </div>
           {userGoals.map((goal, index) => (
-            <div key={index} className="border border-gray-600 w-50 text-[#c4c4c4] py-4 px-10 rounded-lg flex-1 whitespace-pre-line">
+            <div
+              key={index}
+              className="border border-gray-600 w-50 text-center text-[#c4c4c4] py-4 px-10 rounded-lg flex-1 whitespace-pre-line"
+            >
               {goal}
             </div>
           ))}
@@ -112,9 +129,14 @@ const YPCJourney = () => {
 
         {/* Pains */}
         <div className="flex flex-row gap-4 text-center mb-4">
-          <div className="bg-[#333333] w-50 py-4 px-10 rounded-lg flex-shrink-0">Pains</div>
+          <div className="bg-[#333333] w-50 rounded-lg flex items-center justify-center">
+            Pains
+          </div>
           {pains.map((pain, index) => (
-            <div key={index} className="border border-gray-600 w-50 text-[#c4c4c4] py-4 px-10 rounded-lg flex-1 whitespace-pre-line">
+            <div
+              key={index}
+              className="border border-gray-600 w-50 text-center text-[#c4c4c4] py-4 px-10 rounded-lg flex-1 whitespace-pre-line"
+            >
               {pain}
             </div>
           ))}
@@ -122,9 +144,14 @@ const YPCJourney = () => {
 
         {/* Joys */}
         <div className="flex flex-row gap-4 text-center mb-4">
-          <div className="bg-[#333333] w-50 py-4 px-10 rounded-lg flex-shrink-0">Joys</div>
+          <div className="bg-[#333333] w-50 rounded-lg flex items-center justify-center">
+            Joys
+          </div>
           {joys.map((joy, index) => (
-            <div key={index} className="border border-gray-600 w-50 text-[#c4c4c4] py-4 px-10 rounded-lg flex-1 whitespace-pre-line">
+            <div
+              key={index}
+              className="border border-gray-600 w-50 text-center text-[#c4c4c4] py-4 px-10 rounded-lg flex-1 whitespace-pre-line"
+            >
               {joy}
             </div>
           ))}
@@ -132,9 +159,14 @@ const YPCJourney = () => {
 
         {/* Feeling */}
         <div className="flex flex-row gap-4 text-center">
-          <div className="bg-[#333333] w-50 py-5 px-10 text-center rounded-lg flex-shrink-0">Feeling</div>
+          <div className="bg-[#333333] w-50 rounded-lg flex items-center justify-center">
+            Feeling
+          </div>
           {feelings.map((feeling, index) => (
-            <div key={index} className="border border-gray-600 w-50 text-2xl text-[#c4c4c4] py-4 px-10 rounded-lg flex-1">
+            <div
+              key={index}
+              className="border border-gray-600 w-50 text-2xl text-center text-[#c4c4c4] py-4 px-10 rounded-lg flex-1"
+            >
               {feeling}
             </div>
           ))}
@@ -154,31 +186,49 @@ const YPCJourney = () => {
             <div className="space-y-3">
               {/* User Action */}
               <div className="border border-gray-600 rounded-lg p-4">
-                <div className="text-xs font-medium text-[#c4c4c4] mb-2">USER ACTION</div>
-                <p className="text-[#c4c4c4] text-sm whitespace-pre-line">{userActions[index]}</p>
+                <div className="text-xs font-medium text-[#c4c4c4] mb-2">
+                  USER ACTION
+                </div>
+                <p className="text-[#c4c4c4] text-sm whitespace-pre-line">
+                  {userActions[index]}
+                </p>
               </div>
 
               {/* User Goals */}
               <div className="border border-gray-600 rounded-lg p-4">
-                <div className="text-xs font-medium text-[#c4c4c4] mb-2">USER GOALS</div>
-                <p className="text-[#c4c4c4] text-sm whitespace-pre-line">{userGoals[index]}</p>
+                <div className="text-xs font-medium text-[#c4c4c4] mb-2">
+                  USER GOALS
+                </div>
+                <p className="text-[#c4c4c4] text-sm whitespace-pre-line">
+                  {userGoals[index]}
+                </p>
               </div>
 
               {/* Pains */}
               <div className="border border-gray-600 rounded-lg p-4">
-                <div className="text-xs font-medium text-[#c4c4c4] mb-2">PAINS</div>
-                <p className="text-[#c4c4c4] text-sm whitespace-pre-line">{pains[index]}</p>
+                <div className="text-xs font-medium text-[#c4c4c4] mb-2">
+                  PAINS
+                </div>
+                <p className="text-[#c4c4c4] text-sm whitespace-pre-line">
+                  {pains[index]}
+                </p>
               </div>
 
               {/* Joys */}
               <div className="border border-gray-600 rounded-lg p-4">
-                <div className="text-xs font-medium text-[#c4c4c4] mb-2">JOYS</div>
-                <p className="text-[#c4c4c4] text-sm whitespace-pre-line">{joys[index]}</p>
+                <div className="text-xs font-medium text-[#c4c4c4] mb-2">
+                  JOYS
+                </div>
+                <p className="text-[#c4c4c4] text-sm whitespace-pre-line">
+                  {joys[index]}
+                </p>
               </div>
 
               {/* Feeling */}
               <div className="border border-gray-600 rounded-lg p-4 text-center">
-                <div className="text-xs font-medium text-[#c4c4c4] mb-2">FEELING</div>
+                <div className="text-xs font-medium text-[#c4c4c4] mb-2">
+                  FEELING
+                </div>
                 <div className="text-3xl">{feelings[index]}</div>
               </div>
             </div>

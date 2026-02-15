@@ -43,7 +43,7 @@ const RbcFund = () => {
         </button>
       )}
       <Nav modalRef={modalRef} />
-      
+
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -73,7 +73,7 @@ const RbcFund = () => {
           <h2 className="font-manrope text-2xl sm:text-4xl">
             Richard Bland College Foundation
           </h2>
-          <p className="text-gray-300 font-medium">Website Design</p>
+          <p className="text-[#c4c4c4] font-medium">Website Design</p>
         </div>
       </motion.div>
 
@@ -83,9 +83,9 @@ const RbcFund = () => {
         transition={{ duration: 0.5, delay: 0.2 }}
         className="text-4xl md:text-5xl lg:text-6xl mt-4 leading-tight mb-12 mx-10 font-medium"
       >
-        Bridging the gap between
+        Redesigning for engagement
         <br />
-        people and their communities.
+        through strategic design
       </motion.h2>
 
       <motion.div
@@ -113,12 +113,18 @@ const RbcFund = () => {
         className="text-left font-medium text-lg sm:text-2xl leading-relaxed grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-2 lg:mr-40 sm:mr-0 md:mr-40 mx-10"
       >
         <p>
-          The mission of the Richard Bland College Foundation is to aid,
-          strengthen, and extend in every proper and useful manner the work,
-          service, and objectives of Richard Bland College.
+          The Richard Bland College Foundation supports and extends the
+          college’s mission, but its website scattered fundraising campaigns,
+          student stories, and donation options, make it hard for users to
+          navigate. This redesign focused on a user-centric, story-driven
+          experience that clarifies the Foundation’s mission, organizes content
+          intentionally, and guides visitors to key actions – creating a more
+          engaging, navigable, and mission-focused digital presence.
         </p>
         <p></p>
       </motion.div>
+
+      <br />
 
       {/* Problem */}
       <motion.section
@@ -126,14 +132,14 @@ const RbcFund = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="grid grid-cols-1 sm:grid-cols-2 sm:mt-20 mx-10 sm:gap-20"
+        className="grid grid-cols-1 sm:grid-cols-2 mt-10 mx-10 sm:gap-20"
       >
         <div className="text-left text-lg mt-6 leading-relaxed sm:mr-2">
           <p></p>
         </div>
 
         <div className="text-left text-lg mt-6 leading-relaxed sm:mr-2">
-          <p className="text-gray-400">Project solution</p>The redesign improves
+          <p className="text-[#c4c4c4]">Project solution</p>The redesign improves
           usability and clarifies the organization's mission while retaining
           existing content. A user-centered, story-driven structure creates a
           clearer content hierarchy, guiding users toward key information and
@@ -172,10 +178,10 @@ const RbcFund = () => {
       >
         <p></p>
         <div className="text-left text-lg mt-6 leading-relaxed sm:mr-2">
-          <p className="text-gray-400">Establishing institutional identity</p>The landing page
-          clearly communicates the mission and purpose of the College
-          Foundation. Content is structured in a balanced and harmonious layout,
-          ensuring a natural visual flow without unnecessary breaks or
+          <p className="text-[#c4c4c4]">Establishing institutional identity</p>
+          The landing page clearly communicates the mission and purpose of the
+          College Foundation. Content is structured in a balanced and harmonious
+          layout, ensuring a natural visual flow without unnecessary breaks or
           distractions.
         </div>
       </motion.div>
@@ -212,14 +218,14 @@ const RbcFund = () => {
       >
         <p></p>
         <div className="text-left text-lg mt-6 leading-relaxed sm:mr-2">
-          <p className="text-gray-400">Transparent leadership presentation</p>All twenty board members are
-          presented with equal visual weight to emphasize transparency and
-          collective leadership. A short introductory section explains the
-          board's role, responsibilities, and history, providing context and
-          reinforcing credibility.
+          <p className="text-[#c4c4c4]">Transparent leadership presentation</p>
+          All twenty board members are presented with equal visual weight to
+          emphasize transparency and collective leadership. A short introductory
+          section explains the board's role, responsibilities, and history,
+          providing context and reinforcing credibility.
         </div>
       </motion.div>
-      
+
       <br />
 
       <motion.div
@@ -229,7 +235,7 @@ const RbcFund = () => {
         transition={{ duration: 0.5 }}
         className="mx-10"
       >
-        <div className="bg-[#333333] w-full py-12 sm:py-20 mt-10 items-center justify-center">
+        <div className="bg-[#333333] w-full px-4 md:px-8 sm:px-0 py-12 sm:py-20 items-center justify-center mt-10">
           <Image
             src={assets.rbcfund_news}
             alt="RBC Foundation News Page"
@@ -252,10 +258,10 @@ const RbcFund = () => {
         <p></p>
 
         <div className="text-left text-lg mt-6 leading-relaxed sm:mr-2 mb-10">
-          <p className="text-gray-400">Visual consistency as a connector</p> One of the main
-          challenges when designing the subpages was the limited amount of
-          available content. To maintain visual consistency and avoid empty
-          layouts, careful use of imagery and color was essential.
+          <p className="text-[#c4c4c4]">Visual consistency as a connector</p> One
+          of the main challenges when designing the subpages was the limited
+          amount of available content. To maintain visual consistency and avoid
+          empty layouts, careful use of imagery and color was essential.
         </div>
       </motion.div>
 
@@ -266,41 +272,43 @@ const RbcFund = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="grid grid-cols-1 sm:grid-cols-2 gap-2 mx-10"
+        className="grid grid-cols-1 md:grid-cols-2 sm:grid-cols-2 gap-2 mx-10"
       >
-        <section className="grid grid-cols-2 gap-2">
+        <section className="grid grid-cols-2 md:grid-cols-2 sm:grid-cols-2 gap-2">
           <div className="aspect-square bg-[#333333] flex flex-col justify-end leading-snug rounded-xl">
             <p className="font-[Cardo] font-[400] text-white/40 text-2xl sm:text-7xl mx-4 sm:mx-6">
               Cardo
             </p>
-            <p className="text-gray-400 mx-4 sm:mx-6 mb-6">Primary font</p>
+            <p className="text-[#c4c4c4] mx-4 sm:mx-6 mb-6">Primary font</p>
           </div>
           <div className="aspect-square bg-[#333333] flex flex-col justify-end leading-snug rounded-xl">
             <p className="font-[Roboto] font-[300] text-white/40 text-2xl sm:text-7xl mx-4 sm:mx-6">
               Roboto
             </p>
-            <p className="text-gray-400 mx-4 sm:mx-6 mb-6">
-              Secondary font
-            </p>
+            <p className="text-[#c4c4c4] mx-4 sm:mx-6 mb-6">Secondary font</p>
           </div>
         </section>
         {/* Green */}
         <section className="grid grid-cols-1 sm:grid-cols-2 gap-2">
           <div className="bg-[#23493E] w-full rounded-xl flex flex-col justify-end leading-snug">
             <p className="mx-6 mt-6 sm:mt-0 text-xl">Blackboard Green</p>
-            <p className="text-gray-400 mx-6 mb-6 text-lg">#23493E</p>
+            <p className="text-[#c4c4c4] mx-6 mb-6 text-lg">#23493E</p>
           </div>
           {/* Yellow */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
             <div className="bg-[#DABF75] rounded-xl flex flex-col justify-end leading-snug">
-              <p className="text-black/60 mx-6 mt-6 sm:mt-0 text-lg">Brass Nail</p>
+              <p className="text-black/60 mx-6 mt-6 sm:mt-0 text-lg">
+                Brass Nail
+              </p>
               <p className="flex justify-start text-gray-500 mx-6 mb-6">
                 #DABF75
               </p>
             </div>
             {/* Grey */}
             <div className="bg-[#ECECEC] rounded-xl flex flex-col justify-end leading-snug">
-              <p className="text-black/60 mx-6 mt-6 sm:mt-0 text-lg">Pastel Mercury</p>
+              <p className="text-black/60 mx-6 mt-6 sm:mt-0 text-lg">
+                Pastel Mercury
+              </p>
               <p className="flex justify-start text-gray-500 mx-6 mb-6">
                 #ECECEC
               </p>
@@ -318,11 +326,11 @@ const RbcFund = () => {
       >
         <p></p>
         <div className="text-left text-lg mt-6 leading-relaxed sm:mr-2">
-          <p className="text-gray-400">A cohesive visual identity</p>The color palette was
-          intentionally chosen to feel mature, trustworthy, and prestigious —
-          aligning with the institution's identity. Strategic spacing and
-          structured typography helped create a cohesive overall look while
-          preserving clarity and readability.
+          <p className="text-[#c4c4c4]">A cohesive visual identity</p>The color
+          palette was intentionally chosen to feel mature, trustworthy, and
+          prestigious — aligning with the institution's identity. Strategic
+          spacing and structured typography helped create a cohesive overall
+          look while preserving clarity and readability.
         </div>
       </motion.div>
 
@@ -335,7 +343,7 @@ const RbcFund = () => {
         transition={{ duration: 0.5 }}
         className="mx-10"
       >
-        <div className="bg-[#333333] w-full py-12 sm:py-20 mt-10 items-center justify-center">
+        <div className="bg-[#333333] w-full px-4 md:px-8 sm:px-0 py-12 sm:py-20 items-center justify-center mt-10">
           <Image
             src={assets.rbcfund_awards}
             alt="RBC Foundation Awards Page"
@@ -357,7 +365,7 @@ const RbcFund = () => {
       >
         <p></p>
         <div className="text-left text-lg mt-6 leading-relaxed sm:mr-2">
-          <p className="text-gray-400">Simplifying complex options</p>Accordion
+          <p className="text-[#c4c4c4]">Simplifying complex options</p>Accordion
           components were introduced to keep content organized, concise, and
           user-friendly. This approach allows users to expand only the sections
           they are interested in, preventing cognitive overload and keeping the
@@ -397,12 +405,13 @@ const RbcFund = () => {
       >
         <p></p>
         <div className="text-left text-lg mt-6 leading-relaxed sm:mr-2">
-          <p className="text-gray-400">Streamlined access to opportunities</p>A key improvement was
-          adding a prominent call-to-action button that directs users clearly to
-          the application process. The various scholarships offered by the
-          Foundation are organized into categories, making them easier to browse
-          and reducing cognitive load. This structure supports users in quickly
-          finding the opportunity most relevant to them.
+          <p className="text-[#c4c4c4]">Streamlined access to opportunities</p>A
+          key improvement was adding a prominent call-to-action button that
+          directs users clearly to the application process. The various
+          scholarships offered by the Foundation are organized into categories,
+          making them easier to browse and reducing cognitive load. This
+          structure supports users in quickly finding the opportunity most
+          relevant to them.
         </div>
       </motion.div>
 
@@ -415,7 +424,7 @@ const RbcFund = () => {
         transition={{ duration: 0.5 }}
         className="mx-10"
       >
-        <div className="bg-[#333333] w-full py-12 sm:py-20 mt-10 items-center justify-center">
+        <div className="bg-[#333333] w-full px-4 md:px-8 sm:px-0 py-12 sm:py-20 items-center justify-center mt-10">
           <Image
             src={assets.rbcfund_visit}
             alt="RBC Foundation Visit Page"
@@ -437,7 +446,7 @@ const RbcFund = () => {
       >
         <p></p>
         <div className="text-left text-lg mt-6 leading-relaxed sm:mr-2">
-          <p className="text-gray-400">Clear guidance</p>The Visit and Contact
+          <p className="text-[#c4c4c4]">Clear guidance</p>The Visit and Contact
           pages were designed with simplicity and clarity in mind. Information
           is presented in a straightforward manner, minimizing unnecessary
           visual elements. Users can contact the Foundation via a dedicated
@@ -480,14 +489,16 @@ const RbcFund = () => {
         <p></p>
 
         <div className="text-left text-lg mt-6 leading-relaxed sm:mr-2">
-          <p className="text-gray-400">Seamless media integration</p>An integrated
-          video player was added to provide a seamless, distraction-free
-          experience, preventing redirects and eliminating
+          <p className="text-[#c4c4c4]">Seamless media integration</p>An
+          integrated video player was added to provide a seamless,
+          distraction-free experience, preventing redirects and eliminating
           unrelated recommendations. It also allows full control over branding,
           accessibility, and overall user experience. This ensures consistency
           with the website's visual identity and strengthens engagement.
         </div>
       </motion.div>
+
+      <br />
 
       <Other currentProjectId={3} />
 

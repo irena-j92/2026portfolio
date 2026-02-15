@@ -19,12 +19,12 @@ const Work = () => {
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true }}
         transition={{ delay: 0.3, duration: 0.5 }}
-        className="mb-2 uppercase font-[800]"
+        className="mb-2 uppercase font-[700]"
       >
         [Work]
       </motion.h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-y-20 gap-2 mb-20">
+<div className="grid grid-cols-1 min-[700px]:grid-cols-2 lg:grid-cols-3 gap-y-20 gap-2 mb-20">
         {workData.slice(0, 6).map((project, index) => {
           const position = index % 6;
           const hide = position === 4;

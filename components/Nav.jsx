@@ -87,8 +87,8 @@ const Nav = ({ isDarkMode, setIsDarkMode, isModal = false, modalRef = null, onCl
           className="justify-start cursor-pointer"
         >
           <h2 className="uppercase text-xl font-[800] text-[#c4c4c4] hover:text-[#fafafa] transition-colors">
-            ᧖(• ᦢ •)ᦣ
-          </h2>
+           ૮꒰˶  - ˕ -꒱ა⟡
+                     </h2>
         </button>
 
         {/* Desktop Links */}
@@ -126,9 +126,9 @@ const Nav = ({ isDarkMode, setIsDarkMode, isModal = false, modalRef = null, onCl
           <Menu className='w-6 text-[#c4c4c4]' />
         </button>
 
-        {/* Mobile Side Menu */}
-        <ul ref={sideMenuRef} className='flex md:hidden flex-col gap-4 py-20 px-12 fixed -right-64
-        top-0 bottom-0 w-64 z-50 h-screen bg-[#1c1c1c] transition duration-500 text-lg'>
+{/* Mobile Side Menu */}
+<ul ref={sideMenuRef} className='flex md:hidden flex-col gap-4 py-20 px-12 fixed -right-64
+top-0 bottom-0 w-64 z-50 h-screen bg-[#1c1c1c] transition duration-500 text-lg'>
           
           {/* Close Button */}
           <div className='absolute right-6 top-6' onClick={closeMenu}>
