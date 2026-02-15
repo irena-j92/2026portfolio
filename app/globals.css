@@ -1,0 +1,53 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+body {
+  font-family: var(--font-manrope);
+  background-color: #1c1c1c;
+}
+
+/* h1 {
+  font-family: var(--font-silkscreen);
+} */
+
+.fill {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+  top: 0;
+}
+
+.animate-scroll {
+  animation: scroll 30s linear infinite;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none !important;
+}
+::view-transition-group(root) {
+  z-index: auto !important;
+}
+::view-transition-image-pair(root) {
+  isolation: isolate;
+  will-change: transform, opacity, clip-path;
+  z-index: 1;
+}
+::view-transition-new(root) {
+  z-index: 10000;
+  animation: none !important;
+}
+::view-transition-old(root) {
+  z-index: 10000;
+  animation: none !important;
+}
