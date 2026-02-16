@@ -12,6 +12,10 @@ import YPCSitemap from "./YPCSitemap";
 import Other from "../../components/Other";
 import YPCJourney from "./YPCJourney";
 
+export const metadata = {
+  title: "YPCommunities",
+};
+
 const YPCommunities = () => {
     const modalRef = useRef(null);
     const [showScrollButton, setShowScrollButton] = useState(false);

@@ -10,6 +10,10 @@ import { icons, ArrowLeft, ArrowUp, ArrowUpRight } from "lucide-react";
 import CakePersona from "./CakePersona";
 import Other from "../../components/Other";
 
+export const metadata = {
+  title: "CakeClub®",
+};
+
 const CakeClub = () => {
   const modalRef = useRef(null);
   const [showScrollButton, setShowScrollButton] = useState(false);
@@ -44,9 +48,6 @@ const CakeClub = () => {
           <ArrowUp size={20} />
         </button>
       )}
-      <Head>
-        <title>CakeClub®: Product Design & Research</title>
-      </Head>
       <Nav modalRef={modalRef} />
       
       <motion.div

@@ -7,6 +7,10 @@ import { assets } from "../../assets/assets";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
+export const metadata = {
+  title: "About",
+};
+
 const About = () => {
   return (
     <div className="bg-[#c4c4c4] w-full max-w-full box-border text-[#1c1c1c] pb-40 overflow-x-hidden">

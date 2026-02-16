@@ -13,6 +13,10 @@ import LastfmPersona from "./LastfmPersona";
 import LastfmFeatures from "./LastfmFeatures";
 import MuxPlayer from "@mux/mux-player-react";
 
+export const metadata = {
+  title: "Last.fm Pro",
+};
+
 const Lastfm = () => {
   const modalRef = useRef(null);
   const [showScrollButton, setShowScrollButton] = useState(false);
@@ -47,9 +51,6 @@ const Lastfm = () => {
           <ArrowUp size={20} />
         </button>
       )}
-      <Head>
-        <title>Last.fm Pro: UX/UI Design & Research</title>
-      </Head>
       <Nav modalRef={modalRef} />
       
       <motion.div

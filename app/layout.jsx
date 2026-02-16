@@ -35,7 +35,8 @@ export const cardo = Cardo({
 })
 
 export const metadata = {
-  title: "ninety-two",
+ default: "ninety-two",
+  template: "%s * ninety-two",
   description: "",
 };
 
