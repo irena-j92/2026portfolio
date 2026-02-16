@@ -1,6 +1,5 @@
-
+"use client"
 import { useRef, useState, useEffect } from "react";
-import Head from "next/head";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { assets } from "../../assets/assets";
@@ -10,9 +9,9 @@ import { icons, ArrowLeft, ArrowUp, ArrowUpRight } from "lucide-react";
 import CakePersona from "./CakePersona";
 import Other from "../../components/Other";
 
-export const metadata = {
-  title: "CakeClub®",
-};
+// export const metadata = {
+//   title: "CakeClub®",
+// };
 
 const CakeClub = () => {
   const modalRef = useRef(null);

@@ -9,7 +9,7 @@ import ToolsSlider from "../components/ToolsSlider";
 import Contact from "../components/Contact";
 import { BookHeart } from "lucide-react";
 import Modal from "../components/Modal";
-import Whiteboard from "../components/Whiteboard";
+import Canvas from "../components/Canvas";
 
 export default function Home() {
   // const [isDarkMode, setIsDarkMode] = useState(false);

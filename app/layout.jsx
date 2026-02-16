@@ -1,3 +1,4 @@
+
 import "./globals.css";
 import { ViewTransitions } from "next-view-transitions";
 import CustomCursor from "../components/CustomCursor";
@@ -36,8 +37,7 @@ export const cardo = Cardo({
 
 export const metadata = {
  default: "ninety-two",
-  template: "%s * ninety-two",
-  description: "",
+  template: "%s • ninety-two",
 };
 
 export default function RootLayout({ children }) {

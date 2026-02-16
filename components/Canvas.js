@@ -1,7 +1,7 @@
 "use client";
 import React, { useRef, useEffect, useState } from "react";
 
-export default function Whiteboard() {
+export default function Canvas() {
   const canvasRef = useRef(null);
   const [context, setContext] = useState(null);
   const [drawing, setDrawing] = useState(false);

@@ -1,13 +1,10 @@
+"use client"
 import React from "react";
 import Nav from "../../components/Nav";
 import Clock from "../../components/Clock";
 import { assets } from "../../assets/assets";
 import Image from "next/image";
 import { motion } from "framer-motion";
-
-export const metadata = {
-  title: "About",
-};
 
 const About = () => {
   return (
@@ -296,7 +293,7 @@ const About = () => {
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true }}
         transition={{ delay: 0.5, duration: 0.5 }}
-        className="text-center font-[700] text-[#333333] text-4xl sm:text-3xl md:text-4xl lg:text-6xl mt-40"
+        className="text-center font-[700] text-[#333333] text-3xl sm:text-3xl md:text-4xl lg:text-6xl mt-40"
       >
         hello@madein92.xyz
       </motion.h2>

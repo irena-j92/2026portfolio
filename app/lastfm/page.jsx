@@ -1,7 +1,6 @@
-
+"use client"
 import { useRef, useState, useEffect } from "react";
 import Image from "next/image";
-import Head from "next/head";
 import { motion } from "framer-motion";
 import { assets } from "../../assets/assets";
 import Nav from "../../components/Nav";
@@ -13,9 +12,9 @@ import LastfmPersona from "./LastfmPersona";
 import LastfmFeatures from "./LastfmFeatures";
 import MuxPlayer from "@mux/mux-player-react";
 
-export const metadata = {
-  title: "Last.fm Pro",
-};
+// export const metadata = {
+//   title: "Last.fm Pro",
+// };
 
 const Lastfm = () => {
   const modalRef = useRef(null);
