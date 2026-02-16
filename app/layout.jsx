@@ -36,8 +36,8 @@ export const cardo = Cardo({
 })
 
 export const metadata = {
- default: "ninety-two",
-  template: "%s • ninety-two",
+ title: "ninety-two",
+description: "",
 };
 
 export default function RootLayout({ children }) {

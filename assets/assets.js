@@ -157,7 +157,7 @@ export const workData = [
     },
         {
         id: 4,
-        title: 'Last.fm',
+        title: 'Last.fm Pro',
         description: 'UX/UI Design',
         bgImage: '/work-4.jpg',
         link: "/lastfm",
