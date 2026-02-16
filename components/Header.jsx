@@ -68,7 +68,7 @@ const Header = () => {
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 1.5, duration: 0.8 }}
-            href="/irenajurisic-resume.pdf"
+            href="/irenajurisic_resume.pdf"
             download
             className="px-5 py-4 w-32 bg-[#333333] text-[#fafafa] flex items-center gap-2 hover:bg-[#c4c4c4] hover:text-[#1c1c1c] duration-300"
           >
