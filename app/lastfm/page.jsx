@@ -12,10 +12,6 @@ import LastfmPersona from "./LastfmPersona";
 import LastfmFeatures from "./LastfmFeatures";
 import MuxPlayer from "@mux/mux-player-react";
 
-// export const metadata = {
-//   title: "Last.fm Pro",
-// };
-
 const Lastfm = () => {
   const modalRef = useRef(null);
   const [showScrollButton, setShowScrollButton] = useState(false);

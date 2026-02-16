@@ -9,10 +9,6 @@ import Footer from "../../components/Footer";
 import { ArrowLeft, ArrowUp, BriefcaseBusiness, Heart } from "lucide-react";
 import Other from "../../components/Other";
 
-export const metadata = {
-  title: "Richard Bland College Foundation",
-};
-
 const RbcFund = () => {
   const modalRef = useRef(null);
   const [showScrollButton, setShowScrollButton] = useState(false);
