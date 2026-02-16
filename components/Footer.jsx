@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="text-center text-sm text-black sm:flex items-center justify-between py-10">
         <p className="mx-20">© 2025 Made with coffee and banana toast 🖤</p>
 
-        <ul className="flex inline-flex items-center gap-4 justify-center sm:mt-0 text-white mx-20">
+        <ul className="grid grid-cols-2 gap-4 md:inline-flex lg:inline-flex items-center gap-4 justify-center sm:mt-0 text-white mx-20">
           {[
             {
               href: "https://www.linkedin.com/in/irenajurisic92/",
