@@ -294,7 +294,7 @@ const YPCommunities = () => {
             width={800}
             height={600}
             objectFit="cover"
-            className="mx-auto"
+            className="px-10"
             onContextMenu={(e) => e.preventDefault()}
           />
         </div>
@@ -636,7 +636,7 @@ const YPCommunities = () => {
             width={1024}
             height={900}
             objectFit="cover"
-            className="mx-auto"
+            className="px-10"
             onContextMenu={(e) => e.preventDefault()}
           />
         </div>

@@ -17,7 +17,7 @@ const Header = () => {
         initial={{ y: -20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.3, duration: 0.5 }}
-        className="text-[44px] sm:text-[44px] md:text-8xl lg:text-8xl uppercase text-center mx-4 sm:mx-0 mt-40 md:mt-40 lg:mt-40 sm:mt-30 font-bold text-[#fafafa]"
+        className="text-[42px] sm:text-[42px] md:text-8xl lg:text-8xl uppercase text-center mx-4 sm:mx-0 mt-40 md:mt-40 lg:mt-40 sm:mt-30 font-bold text-[#fafafa]"
       >
         [Made*in*1992]
       </motion.h2>

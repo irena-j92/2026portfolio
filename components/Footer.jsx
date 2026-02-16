@@ -9,10 +9,10 @@ import {
 const Footer = () => {
   return (
     <div className="pb-10 bg-[#c4c4c4]">
-      <div className="text-center text-sm text-black sm:flex items-center justify-between py-10">
+      <div className="text-center text-sm text-black sm:flex items-center justify-between py-10 mb-6 sm:mb-6 md:mb-0 lg:mb-0">
         <p className="mx-20">© 2025 Made with coffee and banana toast 🖤</p>
 
-        <ul className="grid grid-cols-2 gap-4 md:inline-flex lg:inline-flex items-center gap-4 justify-center sm:mt-0 text-white mx-20">
+        <ul className="grid grid-cols-2 md:inline-flex lg:inline-flex items-center gap-4 justify-center sm:mt-0 text-white mx-20">
           {[
             {
               href: "https://www.linkedin.com/in/irenajurisic92/",

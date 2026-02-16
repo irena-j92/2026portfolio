@@ -285,7 +285,7 @@ const Lastfm = () => {
             width={300}
             height={700}
             objectFit="cover"
-            className="mx-auto"
+            className="px-10"
             onContextMenu={(e) => e.preventDefault()}
           />
         </div>
@@ -297,7 +297,7 @@ const Lastfm = () => {
             width={300}
             height={700}
             objectFit="cover"
-            className="mx-auto"
+            className="px-10"
             onContextMenu={(e) => e.preventDefault()}
           />
         </div>
@@ -380,7 +380,7 @@ const Lastfm = () => {
             width={300}
             height={700}
             objectFit="cover"
-            className="mx-auto"
+            className="px-10"
             onContextMenu={(e) => e.preventDefault()}
           />
         </div>
@@ -392,7 +392,7 @@ const Lastfm = () => {
             width={300}
             height={700}
             objectFit="cover"
-            className="mx-auto"
+            className="px-10"
             onContextMenu={(e) => e.preventDefault()}
           />
         </div>
@@ -472,7 +472,7 @@ const Lastfm = () => {
             width={300}
             height={700}
             objectFit="cover"
-            className="mx-auto"
+            className="px-10"
             onContextMenu={(e) => e.preventDefault()}
           />
         </div>
@@ -484,7 +484,7 @@ const Lastfm = () => {
             width={300}
             height={700}
             objectFit="cover"
-            className="mx-auto"
+            className="px-10"
             onContextMenu={(e) => e.preventDefault()}
           />
         </div>
@@ -564,7 +564,7 @@ const Lastfm = () => {
             width={300}
             height={700}
             objectFit="cover"
-            className="mx-auto"
+            className="px-10"
             onContextMenu={(e) => e.preventDefault()}
           />
         </div>
@@ -576,7 +576,7 @@ const Lastfm = () => {
             width={300}
             height={700}
             objectFit="cover"
-            className="mx-auto"
+            className="px-10"
             onContextMenu={(e) => e.preventDefault()}
           />
         </div>
@@ -658,7 +658,7 @@ const Lastfm = () => {
             width={300}
             height={700}
             objectFit="cover"
-            className="mx-auto"
+            className="px-10"
             onContextMenu={(e) => e.preventDefault()}
           />
         </div>
@@ -670,7 +670,7 @@ const Lastfm = () => {
             width={300}
             height={700}
             objectFit="cover"
-            className="mx-auto"
+            className="px-10"
             onContextMenu={(e) => e.preventDefault()}
           />
         </div>
