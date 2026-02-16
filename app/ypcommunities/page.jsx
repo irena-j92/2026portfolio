@@ -364,7 +364,7 @@ const YPCommunities = () => {
         transition={{ duration: 0.5 }}
         className="mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
-        <div className="bg-[#333333] w-full py-12 sm:py-20 min-h-[400px] flex items-center justify-center">
+        <div className="bg-[#333333] w-full py-12 sm:py-20 flex items-center justify-center mt-10">
           <video
             autoPlay
             muted
@@ -440,7 +440,7 @@ const YPCommunities = () => {
         transition={{ duration: 0.5 }}
         className="mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
-        <div className="bg-[#333333] w-full py-12 sm:py-20 min-h-[400px] mt-20 flex items-center justify-center">
+        <div className="bg-[#333333] w-full py-12 sm:py-20 flex items-center justify-center mt-10">
           <video
             autoPlay
             muted
@@ -515,7 +515,7 @@ const YPCommunities = () => {
         transition={{ duration: 0.5 }}
         className="mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
-        <div className="bg-[#333333] w-full py-12 sm:py-20 min-h-[400px] mt-10 flex items-center justify-center">
+        <div className="bg-[#333333] w-full py-12 sm:py-20 flex items-center justify-center mt-10">
           <video
             autoPlay
             muted
@@ -553,7 +553,7 @@ const YPCommunities = () => {
         transition={{ duration: 0.5 }}
         className="mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
-        <div className="bg-[#333333] w-full py-12 sm:py-20 min-h-[400px] mt-10 flex items-center justify-center">
+        <div className="bg-[#333333] w-full py-12 sm:py-20 flex items-center justify-center mt-10">
           <Image
             src={assets.ypc_profile}
             alt="YPC Profile Events"
@@ -591,7 +591,7 @@ const YPCommunities = () => {
         transition={{ duration: 0.5 }}
         className="mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
-        <div className="bg-[#333333] w-full py-12 sm:py-20 min-h-[400px] mt-10 flex items-center justify-center">
+        <div className="bg-[#333333] w-full py-12 sm:py-20 flex items-center justify-center mt-10">
           <video
             autoPlay
             muted
