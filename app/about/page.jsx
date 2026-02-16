@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import Nav from "../../components/Nav";
 import Clock from "../../components/Clock";
