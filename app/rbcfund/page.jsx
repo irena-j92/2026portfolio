@@ -154,7 +154,7 @@ const RbcFund = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="mx-10"
+        className="mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
         <div className="bg-[#333333] w-full px-4 md:px-8 sm:px-0 py-12 sm:py-20 items-center justify-center mt-10">
           <Image
@@ -193,7 +193,7 @@ const RbcFund = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="mx-10"
+        className="mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
         <div className="bg-[#333333] w-full py-12 sm:py-20 flex items-center justify-center mt-10">
           <video
@@ -233,7 +233,7 @@ const RbcFund = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="mx-10"
+        className="mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
         <div className="bg-[#333333] w-full px-4 md:px-8 sm:px-0 py-12 sm:py-20 items-center justify-center mt-10">
           <Image
@@ -341,7 +341,7 @@ const RbcFund = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="mx-10"
+        className="mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
         <div className="bg-[#333333] w-full px-4 md:px-8 sm:px-0 py-12 sm:py-20 items-center justify-center mt-10">
           <Image
@@ -380,7 +380,7 @@ const RbcFund = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="mx-10"
+        className="mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
         <div className="bg-[#333333] w-full py-12 sm:py-20 flex items-center justify-center mt-10">
           <video
@@ -422,7 +422,7 @@ const RbcFund = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="mx-10"
+        className="mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
         <div className="bg-[#333333] w-full px-4 md:px-8 sm:px-0 py-12 sm:py-20 items-center justify-center mt-10">
           <Image
@@ -463,7 +463,7 @@ const RbcFund = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="mx-10"
+       className="mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
         <div className="bg-[#333333] w-full py-12 sm:py-20 mt-10 flex items-center justify-center">
           <video

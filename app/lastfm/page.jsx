@@ -276,7 +276,7 @@ const Lastfm = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-2 gap-4 mt-10 mx-10"
+        className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-2 gap-4 mt-10 mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
         <div className="bg-[#333333] w-full py-12 items-center justify-center">
           <Image
@@ -285,7 +285,7 @@ const Lastfm = () => {
             width={300}
             height={700}
             objectFit="cover"
-            className="px-10"
+            className="mx-auto"
             onContextMenu={(e) => e.preventDefault()}
           />
         </div>
@@ -297,7 +297,7 @@ const Lastfm = () => {
             width={300}
             height={700}
             objectFit="cover"
-            className="px-10"
+            className="mx-auto"
             onContextMenu={(e) => e.preventDefault()}
           />
         </div>
@@ -328,16 +328,15 @@ const Lastfm = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="mx-10"
+        className="mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
-        <div className="bg-[#333333] w-full py-20 min-h-[400px] mt-10 flex items-center justify-center">
+        <div className="bg-[#333333] px-4 w-full px-4 py-12 sm:py-20 mt-10 items-center justify-center">
           <Image
             src={assets.lastfm_profile}
-            alt="Profile"
-            width={400}
-            height={800}
-            objectFit="cover"
-            className="px-10"
+            alt="Last.fm Profile"
+            width={300}
+            height={700}
+            className="mx-auto"
             onContextMenu={(e) => e.preventDefault()}
           />
         </div>
@@ -371,7 +370,7 @@ const Lastfm = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-2 gap-4 mt-10 mx-10"
+        className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-2 gap-4 mt-10 mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
         <div className="bg-[#333333] w-full py-12 items-center justify-center">
           <Image
@@ -380,7 +379,7 @@ const Lastfm = () => {
             width={300}
             height={700}
             objectFit="cover"
-            className="px-10"
+            className="mx-auto"
             onContextMenu={(e) => e.preventDefault()}
           />
         </div>
@@ -392,7 +391,7 @@ const Lastfm = () => {
             width={300}
             height={700}
             objectFit="cover"
-            className="px-10"
+            className="mx-auto"
             onContextMenu={(e) => e.preventDefault()}
           />
         </div>
@@ -423,16 +422,15 @@ const Lastfm = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="mx-10"
+        className="mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
-        <div className="bg-[#333333] w-full py-20 min-h-[400px] mt-20 flex items-center justify-center">
+        <div className="bg-[#333333] px-4 w-full px-4 py-12 sm:py-20 mt-10 items-center justify-center">
           <Image
             src={assets.lastfm_obsessions}
-            alt="Lastfm Obsessions"
-            width={400}
-            height={800}
-            objectFit="cover"
-            className="px-10"
+            alt="Last.fm Obsessions"
+            width={300}
+            height={700}
+            className="mx-auto"
             onContextMenu={(e) => e.preventDefault()}
           />
         </div>
@@ -463,7 +461,7 @@ const Lastfm = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-2 gap-4 mt-20 mx-10"
+        className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-2 gap-4 mt-10 mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
         <div className="bg-[#333333] w-full py-12 items-center justify-center">
           <Image
@@ -472,7 +470,7 @@ const Lastfm = () => {
             width={300}
             height={700}
             objectFit="cover"
-            className="px-10"
+            className="mx-auto"
             onContextMenu={(e) => e.preventDefault()}
           />
         </div>
@@ -484,7 +482,7 @@ const Lastfm = () => {
             width={300}
             height={700}
             objectFit="cover"
-            className="px-10"
+            className="mx-auto"
             onContextMenu={(e) => e.preventDefault()}
           />
         </div>
@@ -515,16 +513,15 @@ const Lastfm = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="mx-10"
+        className="mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
-        <div className="bg-[#333333] w-full py-20 min-h-[400px] mt-20 flex items-center justify-center">
+        <div className="bg-[#333333] px-4 w-full px-4 py-12 sm:py-20 mt-10 items-center justify-center">
           <Image
             src={assets.lastfm_search}
-            alt="Lastfm Search"
-            width={400}
-            height={800}
-            objectFit="cover"
-            className="px-10"
+            alt="Last.fm Search"
+            width={300}
+            height={700}
+            className="mx-auto"
             onContextMenu={(e) => e.preventDefault()}
           />
         </div>
@@ -555,7 +552,7 @@ const Lastfm = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-2 gap-4 mt-20 mx-10"
+        className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-2 gap-4 mt-10 mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
         <div className="bg-[#333333] w-full py-12 items-center justify-center">
           <Image
@@ -564,7 +561,7 @@ const Lastfm = () => {
             width={300}
             height={700}
             objectFit="cover"
-            className="px-10"
+            className="mx-auto"
             onContextMenu={(e) => e.preventDefault()}
           />
         </div>
@@ -576,7 +573,7 @@ const Lastfm = () => {
             width={300}
             height={700}
             objectFit="cover"
-            className="px-10"
+            className="mx-auto"
             onContextMenu={(e) => e.preventDefault()}
           />
         </div>
@@ -609,16 +606,15 @@ const Lastfm = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="mx-10"
+        className="mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
-        <div className="bg-[#333333] w-full py-6 sm:py-20 min-h-[400px] mt-10 sm:mt-20 flex items-center justify-center">
+        <div className="bg-[#333333] w-full py-10 lg:py-10 md:py-8 sm:py-6 px-6 mt-10 items-center justify-center">
           <Image
             src={assets.lastfm_personalities}
-            alt="Lastfm Personalities"
-            width={1020}
-            height={900}
-            objectFit="cover"
-            className="px-6 sm:px-10"
+            alt="Last.fm Personalities"
+            width={980}
+            height={800}
+            className="mx-auto"
             onContextMenu={(e) => e.preventDefault()}
           />
         </div>
@@ -649,7 +645,7 @@ const Lastfm = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-2 gap-4 mt-20 mx-10"
+        className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-2 gap-4 mt-10 mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
         <div className="bg-[#333333] w-full py-12 items-center justify-center">
           <Image
@@ -658,7 +654,7 @@ const Lastfm = () => {
             width={300}
             height={700}
             objectFit="cover"
-            className="px-10"
+            className="mx-auto"
             onContextMenu={(e) => e.preventDefault()}
           />
         </div>
@@ -670,7 +666,7 @@ const Lastfm = () => {
             width={300}
             height={700}
             objectFit="cover"
-            className="px-10"
+            className="mx-auto"
             onContextMenu={(e) => e.preventDefault()}
           />
         </div>
@@ -699,16 +695,15 @@ const Lastfm = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="mx-10"
+        className="mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
-        <div className="bg-[#333333] w-full py-20 min-h-[400px] mt-20 flex items-center justify-center">
+        <div className="bg-[#333333] px-4 w-full px-4 py-12 sm:py-20 mt-10 items-center justify-center">
           <Image
             src={assets.lastfm_capsule_calendar}
-            alt="Lastfm Time Capsule Calendar"
-            width={400}
-            height={800}
-            objectFit="cover"
-            className="px-10"
+            alt="Last.fm Capsule Calendar"
+            width={300}
+            height={700}
+            className="mx-auto"
             onContextMenu={(e) => e.preventDefault()}
           />
         </div>

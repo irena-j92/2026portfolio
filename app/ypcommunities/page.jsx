@@ -234,7 +234,7 @@ const YPCommunities = () => {
 
             <br />
 
-<div className="mx-10">
+<div className="mx-4 md:mx-6 sm:mx-4 lg:mx-10">
       <YPCJourney />
       </div>
 
@@ -285,7 +285,7 @@ const YPCommunities = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="mx-10"
+        className="mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
         <div className="bg-[#333333] w-full px-4 md:px-8 sm:px-0 py-12 sm:py-20 items-center justify-center mt-10">
           <Image
@@ -323,7 +323,7 @@ const YPCommunities = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="mx-10"
+        className="mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
         <div className="bg-[#333333] w-full py-12 sm:py-20 flex items-center justify-center mt-10">
           <video
@@ -362,7 +362,7 @@ const YPCommunities = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="mx-10"
+        className="mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
         <div className="bg-[#333333] w-full py-12 sm:py-20 min-h-[400px] flex items-center justify-center">
           <video
@@ -400,7 +400,7 @@ const YPCommunities = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="mx-10"
+        className="mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
         <div className="bg-[#333333] w-full py-20 min-h-[400px] mt-10 flex items-center justify-center">
           <Image
@@ -438,7 +438,7 @@ const YPCommunities = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="mx-10"
+        className="mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
         <div className="bg-[#333333] w-full py-20 min-h-[400px] mt-20 flex items-center justify-center">
           <video
@@ -476,7 +476,7 @@ const YPCommunities = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="mx-10"
+        className="mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
         <div className="bg-[#333333] w-full py-20 min-h-[400px] mt-10 flex items-center justify-center">
           <Image
@@ -513,7 +513,7 @@ const YPCommunities = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="mx-10"
+        className="mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
         <div className="bg-[#333333] w-full py-20 min-h-[400px] mt-10 flex items-center justify-center">
           <video
@@ -551,7 +551,7 @@ const YPCommunities = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="mx-10"
+        className="mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
         <div className="bg-[#333333] w-full py-20 min-h-[400px] mt-10 flex items-center justify-center">
           <Image
@@ -560,6 +560,7 @@ const YPCommunities = () => {
             width={960}
             height={680}
             objectFit="cover"
+            className="px-10"
             onContextMenu={(e) => e.preventDefault()}
           />
         </div>
@@ -588,7 +589,7 @@ const YPCommunities = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="mx-10"
+        className="mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
         <div className="bg-[#333333] w-full py-20 min-h-[400px] mt-10 flex items-center justify-center">
           <video
@@ -627,7 +628,7 @@ const YPCommunities = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="mx-10"
+       className="mx-4 md:mx-6 sm:mx-4 lg:mx-10"
       >
         <div className="bg-[#333333] w-full px-4 md:px-8 sm:px-0 py-8 sm:py-12 flex items-center justify-center mt-10">
           <Image
