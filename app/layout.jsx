@@ -5,6 +5,8 @@ import CustomCursor from "../components/CustomCursor";
 
 import { Manrope, Silkscreen, Plus_Jakarta_Sans, Roboto, Cardo } from 'next/font/google'
 
+import { Analytics } from "@vercel/analytics/next"
+
 export const manrope = Manrope({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700', '800'],
@@ -65,6 +67,7 @@ export default function RootLayout({ children }) {
   className={`${manrope.variable} ${silkscreen.variable} ${roboto.variable} ${cardo.variable} antialiased leading-8 overflow-x-hidden dark:bg-darkTheme dark:text-white`}>
         <CustomCursor />
         {children}
+        <Analytics />
       </body>
     </html>
     </ViewTransitions>
