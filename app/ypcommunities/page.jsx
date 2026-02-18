@@ -134,7 +134,7 @@ const YPCommunities = () => {
       >
         <p></p>
 
-        <div className="text-left grid grid-cols-2 md:grid-cols-2 sm:grid-cols-4 gap-2 text-lg mt-6 leading-relaxed sm:ml-2">
+        <div className="text-left grid grid-cols-2 md:grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-2 text-lg mt-6 leading-relaxed sm:ml-2">
           <div className="py-6 px-6 bg-[#333333] rounded-xl text-center">
             <h2 className="text-4xl">
               <span className="text-3xl">💼</span> 11
@@ -294,7 +294,7 @@ const YPCommunities = () => {
             width={800}
             height={600}
             objectFit="cover"
-            className="px-10"
+            className="mx-auto"
             onContextMenu={(e) => e.preventDefault()}
           />
         </div>

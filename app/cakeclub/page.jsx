@@ -201,7 +201,7 @@ const CakeClub = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-2 mt-20 mx-10 sm:mx-0 md:mx-10"
+        className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-2 mt-20"
       >
         <div className="text-left text-lg mt-6 leading-relaxed lg:ml-12">
           <p className="text-[#FF7EC5]">Solution</p>CakeClub® is a visually
@@ -525,7 +525,7 @@ const CakeClub = () => {
           </p>
           Notifications are curated based on user behavior and financial
           activity. Rather than being intrusive, they are designed to provide
-          meaningful insights, reminders, or motivational updates — reinforcing
+          meaningful insights, reminders, or motivational updates – reinforcing
           a personalized and positive user experience.
         </div>
       </motion.div>
