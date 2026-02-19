@@ -67,7 +67,8 @@ const CakeClub = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.1 }}
-        className="flex inline-flex mx-10 items-center gap-4 mb-10 sm:mb-20 mt-10 sm:mt-20"
+        // className="flex inline-flex mx-10 items-center gap-4 mb-10 sm:mb-20 mt-10 sm:mt-20"
+        className="flex inline-flex mx-10 items-center gap-4 mb-10 mt-10 sm:mt-20"
       >
         <Image src={assets.cakeclub_logo} alt="Logo" className="w-16 h-16" />
         <div className="leading-8 sm:leading-tight">
@@ -75,6 +76,9 @@ const CakeClub = () => {
           <p className="text-[#c4c4c4] font-medium">Product Design & Research</p>
         </div>
       </motion.div>
+
+      <motion.div className="bg-[#333333] rounded-full w-fit mx-10 mb-10 sm:mb-20">
+        <p className="uppercase font-[700] text-[#c4c4c4] text-sm py-2 px-4">Personal Project</p></motion.div>
 
       <motion.h2
         initial={{ opacity: 0, y: 20 }}

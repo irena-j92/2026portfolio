@@ -288,6 +288,17 @@ const About = () => {
         </motion.div>
       </section> */}
 
+
+        <motion.h2
+          initial={{ x: -30, opacity: 0 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.3, duration: 0.5 }}
+          className="font-[800] uppercase"
+        >
+          [Education]
+        </motion.h2>
+        
                   <motion.h2
         initial={{ y: -20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
